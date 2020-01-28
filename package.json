@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"author": "Max",
 	"license": "MIT",
+	"repository": "github:theMajc/Currency-Rates",
 	"description": "Currency converter using fixer.io's historical endpoint.",
 	"main": "app.js",
 	"scripts": {
