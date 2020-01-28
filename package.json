@@ -1,0 +1,24 @@
+{
+	"name": "currency-rates",
+	"version": "0.0.1",
+	"author": "Max",
+	"license": "MIT",
+	"description": "Currency converter using fixer.io's historical endpoint.",
+	"main": "app.js",
+	"scripts": {
+		"live": "nodemon --watch",
+		"start": "node app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"currency"
+	],
+	"dependencies": {
+		"express": "^4.17.1",
+		"fs": "0.0.1-security",
+		"request": "^2.88.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	}
+}
